@@ -9,6 +9,19 @@
    }
 }
 @media (max-width: 768px) {
+    /*change font size */
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 14px;
+    }
    /*Add margin to container fluid*/
    .container-fluid {
        margin: 0 20px;
@@ -63,6 +76,11 @@
    }
    div#cometAppOverview div {
     width: 100%;
+    }
+    /* reduce emoji size */
+    #flex-container-2 div img {
+        height: 50px;
+        width: 50px;
     }
    /* reduce margin to footer */
    section div.one {
