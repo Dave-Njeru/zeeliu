@@ -35,6 +35,10 @@
        height: 45px;
        width: 45px;
    }
+   /* reduce font size links in home page */
+   section#section_two_projects div p a {
+       font-size: 14px;
+   }
    /*reduce margin top */
    #section_two_about {
        margin-top: 80px;
