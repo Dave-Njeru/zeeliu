@@ -1,0 +1,434 @@
+/*import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+    font-family: 'ITCAvantGarde';
+    src: url("Font/ITCAvantGardePro-Bk.woff");
+}
+/* General Formatting */
+body {
+    font-size: 13px;
+    font-family: 'Poppins';
+}
+h1, h2, h3, h4 {
+    font-family: 'ITCAvantGarde';
+}
+h1 {
+    font-size: 48px;
+    font-weight: 500;
+}
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+p {
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+
+
+/************/
+/*****PROJECTS PAGE *******/
+
+/*section one */
+/* navigation bar */
+.navbar {
+    width: 83.3333%;
+    margin: 0 auto;
+    background: white;
+    border: none;
+}
+nav div ul#one {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    padding-top: 10px;
+}
+nav div ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+nav div ul li a {
+    color: black !important;
+}
+.navbar-toggle {
+    border: none;
+}
+.icon-navbar {
+    visibility: hidden;
+    text-align: center;
+    list-style-type: none;
+    margin: 0 10px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: black;
+    line-height: 32px;
+    color: white;
+    font-size: 1.0em;
+}
+div.logo img{
+    height: 65px;
+    width: 65px;
+}
+.dot {
+    color:  #F6C01C;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-right: 5px;
+}
+.dot-hidden {
+    color: white !important;
+}
+
+/***section two***/
+#section_two_projects {
+    margin-top: 70px;
+}
+#face_image {
+    width: 400px;
+    height: 260px;
+}
+#waving-image {
+    width: 40px;
+    height: 40px;
+}
+section#section_two_projects div p {
+    margin-top: 40px;
+    font-size: 14px;
+}
+section#section_two_projects div p a {
+    text-decoration: underline;
+    color: black;
+    font-size: 18px;
+}
+section#section_two_projects div p a:hover {
+    color: black;
+}
+
+/**section three**/
+figcaption {
+    padding-top: 5px;
+}
+#row-one {
+    margin-top: 100px;
+}
+.image {
+    width: 100%;
+    height: auto;
+}
+.project-rows {
+    margin-top: 50px;
+}
+span.title {
+    font-weight: bold;
+}
+span.subtitle {
+    color: gray;
+}
+
+
+/*section four*/
+section div.one {
+    margin-top: 200px;
+    text-align: center;
+}
+div#email-contact {
+    margin-bottom: 50px;
+}
+div#footer {
+    margin-top: 50px;
+}
+div footer ul {
+    text-align: center;
+}
+div footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: black;
+    line-height: 32px;
+    color: white;
+    font-size: 1.2em;
+}
+span#interested {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+
+/*****ABOUT PAGE *******/
+/*section two*/
+#section_two_about {
+    margin-top: 150px;
+}
+div#flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+div#flex-container div img {
+    width: 80%;
+    box-shadow: -15px 15px #ffe140;
+}
+div#flex-container div ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+div#flex-container div h3 {
+    font-family: 'Arial';
+    font-weight: bold !important;
+}
+div#flex-container div p {
+    margin-top: 30px;
+}
+section#section_two_about div p a {
+    border: none;
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 16px;
+    color: black;
+}
+
+/*section three*/
+div#icons {
+    margin-top: 100px;
+}
+div#icons ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 0;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+
+/******COMET PAGE******/
+/*section two*/
+#section_two_comet {
+    margin-top: 80px;
+}
+section#section_two_comet div h2,
+section#section_two_comet div p {
+    text-align: center;
+}
+section#section_two_comet div p {
+    margin-top: 10px;
+}
+section#section_two_comet div img {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+section#section_two_comet div h3 {
+    font-weight: bold;
+    margin-top: 40px;
+}
+section#section_two_comet div div div span {
+    font-weight: bold;
+}
+.horizontal_rule{
+    margin-top: 40px !important;
+}
+div#cometAppOverview {
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 60px;
+}
+div#cometAppOverview div {
+    width: 50%;
+}
+hr {
+    border: 1px solid gray;
+}
+
+/*section three */
+section#section_three_comet div h3 {
+    font-weight: bold;
+    margin-top: 100px;
+}
+section#section_three_comet div h4 {
+    font-weight: bold;
+    margin-top: 40px;
+}
+section#section_three_comet div div img {
+    width: 100%;
+    height: auto;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row nowrap;
+    padding: 0 8.4%;
+}
+
+/*section four */
+section#section_four_comet h3, h4 {
+    font-weight: bold;
+}
+section#section_four_comet h3 {
+    margin-top: 100px;
+}
+section#section_four_comet h4 {
+    margin-top: 40px;
+}
+#asking-around {
+    margin-top: 50px;
+}
+.make-bold {
+    font-weight: bold;
+}
+.align-left {
+    text-align: right;
+}
+#quotes {
+    margin: 0 8.4%;
+}
+.align-right {
+    text-align: right;
+}
+#flex-container-2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    column-gap: 50px;
+}
+#flex-container-2 div {
+    row-gap: 50px;
+}
+#contain-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#contain-button button {
+    box-shadow: 1px 1px 5px lightgrey;
+}
+#contain-button button a {
+    color: black;
+    text-decoration: none;
+}
+#contain-percentage {
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 50px;
+    margin: 40px 6% 30px 6%;
+}
+#contain-percentage span {
+    font-weight: bold;
+    font-size: 32px;
+}
+#validating-the-problem {
+    margin: 30px 8.4%;
+}
+#pain-point {
+    margin: 40px 8.4% 50px 8.4%;
+}
+#pain-point img {
+    width: 100%;
+}
+#user-groups {
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 10%;
+}
+#user-groups img {
+    width: 45%;
+    flex-shrink: 1;
+}
+#info-arch img {
+    margin: 20px 0 30px 0;
+    width: 100%;
+}
+#task-flows img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+div#wireframe-testing {
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 6%;
+    margin: 25px 0 40px 0;
+}
+div#wireframe-testing div {
+    width: 50%;
+}
+div#wireframe-testing div img {
+    width: 100%;
+}
+div#wireframe-testing div ul {
+    padding-left: 0;
+}
+div#wireframe-testing div ul li {
+    list-style: none;
+}
+div#testing-images {
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-x: scroll;
+    column-gap: 25px;
+}
+div#testing-images div {
+    width: 50%;
+    flex-shrink: 0;
+}
+div#testing-images div img {
+    width: 100%;
+    height: 100%;
+}
+div#carousel1 {
+    margin: 40px 8.4% 50px 8.4%;
+}
+div.carousel-caption {
+    padding-top: 20px;
+    color: green;
+}
+div#final-prototype div img{
+    width: 100%;
+}
+div.in-quotes {
+    margin: 0 6%;
+    font-weight: bold;
+}
+div.second-div {
+    margin: 15px 8.4% 40px 8.4%;
+}
+.flex-container-3 {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.flex-container-3 div {
+    width: 50%;
+    margin-top: 20px;
+}
+.flex-container-3 div h5 {
+    font-weight: bold;
+}
+.flex-container-3 div ul {
+    padding-left: 12px;
+}
+.flex-container-3 div ul li {
+    list-style: decimal;
+}
+div#reflections {
+    margin: 0 8.4%;
+}
+.title {
+    font-weight: bold;
+    margin: 40px 0 15px 0;
+}
